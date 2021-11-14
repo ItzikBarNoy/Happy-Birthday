@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA1A15EA273B3E60002DC2E6 /* BabyBirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A15E9273B3E60002DC2E6 /* BabyBirthdayViewController.swift */; };
+		AA1A15ED273B4576002DC2E6 /* BabyBirthdayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A15EC273B4576002DC2E6 /* BabyBirthdayModel.swift */; };
+		AA1A15EF273B4583002DC2E6 /* BabyBirthdayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA1A15EE273B4583002DC2E6 /* BabyBirthdayViewModel.swift */; };
+		AA92E682274010CF008C94C8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA92E681274010CF008C94C8 /* Colors.xcassets */; };
+		AA92E68A27405E22008C94C8 /* BabyBirthdayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92E68927405E22008C94C8 /* BabyBirthdayFactory.swift */; };
+		AA92E68C274060E7008C94C8 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92E68B274060E7008C94C8 /* UIColor+Extension.swift */; };
+		AA92E68E27406114008C94C8 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA92E68D27406114008C94C8 /* UIImage+Extension.swift */; };
+		AAB7947A273AB1E9008094CE /* CameraImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB79479273AB1E9008094CE /* CameraImageService.swift */; };
+		AAB7947C273ACED4008094CE /* BabyDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7947B273ACED4008094CE /* BabyDetailsModel.swift */; };
+		AAB7947F273AD25F008094CE /* BabyDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7947E273AD25F008094CE /* BabyDetailsViewModel.swift */; };
+		AAC89A662738AD480052E6E4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC89A652738AD480052E6E4 /* AppDelegate.swift */; };
+		AAC89A682738AD480052E6E4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC89A672738AD480052E6E4 /* SceneDelegate.swift */; };
+		AAC89A6A2738AD480052E6E4 /* BabyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC89A692738AD480052E6E4 /* BabyDetailsViewController.swift */; };
+		AAC89A6D2738AD480052E6E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC89A6B2738AD480052E6E4 /* Main.storyboard */; };
+		AAC89A6F2738AD4A0052E6E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAC89A6E2738AD4A0052E6E4 /* Assets.xcassets */; };
+		AAC89A722738AD4A0052E6E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAC89A702738AD4A0052E6E4 /* LaunchScreen.storyboard */; };
+		AAC89A802738C4BC0052E6E4 /* BentonSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC89A7F2738C4BC0052E6E4 /* BentonSans-Medium.ttf */; };
+		AAC89A822738C5D30052E6E4 /* BentonSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAC89A812738C5D30052E6E4 /* BentonSans-Regular.ttf */; };
+		AAE3E1032740969200DF5CE6 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE3E1022740969200DF5CE6 /* UIView+Snapshot.swift */; };
+		AAF97B1B2739D73D009A8C1B /* UserDefaults+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF97B1A2739D73D009A8C1B /* UserDefaults+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA1A15E9273B3E60002DC2E6 /* BabyBirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBirthdayViewController.swift; sourceTree = "<group>"; };
+		AA1A15EC273B4576002DC2E6 /* BabyBirthdayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBirthdayModel.swift; sourceTree = "<group>"; };
+		AA1A15EE273B4583002DC2E6 /* BabyBirthdayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBirthdayViewModel.swift; sourceTree = "<group>"; };
+		AA92E681274010CF008C94C8 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		AA92E68927405E22008C94C8 /* BabyBirthdayFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyBirthdayFactory.swift; sourceTree = "<group>"; };
+		AA92E68B274060E7008C94C8 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		AA92E68D27406114008C94C8 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		AAB79479273AB1E9008094CE /* CameraImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraImageService.swift; sourceTree = "<group>"; };
+		AAB7947B273ACED4008094CE /* BabyDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDetailsModel.swift; sourceTree = "<group>"; };
+		AAB7947E273AD25F008094CE /* BabyDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDetailsViewModel.swift; sourceTree = "<group>"; };
+		AAC89A622738AD480052E6E4 /* Happy Birthday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happy Birthday.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC89A652738AD480052E6E4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAC89A672738AD480052E6E4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AAC89A692738AD480052E6E4 /* BabyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyDetailsViewController.swift; sourceTree = "<group>"; };
+		AAC89A6C2738AD480052E6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AAC89A6E2738AD4A0052E6E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAC89A712738AD4A0052E6E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AAC89A732738AD4A0052E6E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAC89A7F2738C4BC0052E6E4 /* BentonSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans-Medium.ttf"; sourceTree = "<group>"; };
+		AAC89A812738C5D30052E6E4 /* BentonSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BentonSans-Regular.ttf"; sourceTree = "<group>"; };
+		AAE3E1022740969200DF5CE6 /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
+		AAF97B1A2739D73D009A8C1B /* UserDefaults+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAC89A5F2738AD480052E6E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA1A15E4273B3DA0002DC2E6 /* BabyDetails */ = {
+			isa = PBXGroup;
+			children = (
+				AAC89A7C2738AF490052E6E4 /* Model */,
+				AAC89A7D2738AF4E0052E6E4 /* View */,
+				AAC89A7E2738AF520052E6E4 /* ViewModel */,
+			);
+			path = BabyDetails;
+			sourceTree = "<group>";
+		};
+		AA1A15E5273B3DCB002DC2E6 /* BabyBirthday */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15E8273B3DEA002DC2E6 /* Model */,
+				AA1A15E7273B3DE7002DC2E6 /* View */,
+				AA1A15E6273B3DDC002DC2E6 /* ViewModel */,
+			);
+			path = BabyBirthday;
+			sourceTree = "<group>";
+		};
+		AA1A15E6273B3DDC002DC2E6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15EE273B4583002DC2E6 /* BabyBirthdayViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AA1A15E7273B3DE7002DC2E6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15E9273B3E60002DC2E6 /* BabyBirthdayViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA1A15E8273B3DEA002DC2E6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15EC273B4576002DC2E6 /* BabyBirthdayModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA1A15EB273B3EC6002DC2E6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AAC89A812738C5D30052E6E4 /* BentonSans-Regular.ttf */,
+				AAC89A7F2738C4BC0052E6E4 /* BentonSans-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AA92E68827405E05008C94C8 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				AA92E68927405E22008C94C8 /* BabyBirthdayFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		AAB79478273AB1C0008094CE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AAB79479273AB1E9008094CE /* CameraImageService.swift */,
+				AAE3E1022740969200DF5CE6 /* UIView+Snapshot.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AAC89A592738AD480052E6E4 = {
+			isa = PBXGroup;
+			children = (
+				AAC89A642738AD480052E6E4 /* Happy Birthday */,
+				AAC89A632738AD480052E6E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC89A632738AD480052E6E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC89A622738AD480052E6E4 /* Happy Birthday.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAC89A642738AD480052E6E4 /* Happy Birthday */ = {
+			isa = PBXGroup;
+			children = (
+				AA92E68827405E05008C94C8 /* Factory */,
+				AAF97B192739D72B009A8C1B /* Extensions */,
+				AAC89A7B2738AF390052E6E4 /* Modules */,
+				AAB79478273AB1C0008094CE /* Services */,
+				AAC89A792738AF010052E6E4 /* Resources Files */,
+				AAC89A6B2738AD480052E6E4 /* Main.storyboard */,
+				AAC89A7A2738AF160052E6E4 /* Supporting Files */,
+				AAC89A732738AD4A0052E6E4 /* Info.plist */,
+			);
+			path = "Happy Birthday";
+			sourceTree = "<group>";
+		};
+		AAC89A792738AF010052E6E4 /* Resources Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15EB273B3EC6002DC2E6 /* Fonts */,
+				AAC89A652738AD480052E6E4 /* AppDelegate.swift */,
+				AAC89A672738AD480052E6E4 /* SceneDelegate.swift */,
+			);
+			path = "Resources Files";
+			sourceTree = "<group>";
+		};
+		AAC89A7A2738AF160052E6E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAC89A6E2738AD4A0052E6E4 /* Assets.xcassets */,
+				AA92E681274010CF008C94C8 /* Colors.xcassets */,
+				AAC89A702738AD4A0052E6E4 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAC89A7B2738AF390052E6E4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AA1A15E4273B3DA0002DC2E6 /* BabyDetails */,
+				AA1A15E5273B3DCB002DC2E6 /* BabyBirthday */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AAC89A7C2738AF490052E6E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7947B273ACED4008094CE /* BabyDetailsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AAC89A7D2738AF4E0052E6E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAC89A692738AD480052E6E4 /* BabyDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAC89A7E2738AF520052E6E4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AAB7947E273AD25F008094CE /* BabyDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AAF97B192739D72B009A8C1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AAF97B1A2739D73D009A8C1B /* UserDefaults+Extension.swift */,
+				AA92E68B274060E7008C94C8 /* UIColor+Extension.swift */,
+				AA92E68D27406114008C94C8 /* UIImage+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAC89A612738AD480052E6E4 /* Happy Birthday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC89A762738AD4A0052E6E4 /* Build configuration list for PBXNativeTarget "Happy Birthday" */;
+			buildPhases = (
+				AAC89A5E2738AD480052E6E4 /* Sources */,
+				AAC89A5F2738AD480052E6E4 /* Frameworks */,
+				AAC89A602738AD480052E6E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Happy Birthday";
+			productName = "Happy Birthday";
+			productReference = AAC89A622738AD480052E6E4 /* Happy Birthday.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC89A5A2738AD480052E6E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					AAC89A612738AD480052E6E4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = AAC89A5D2738AD480052E6E4 /* Build configuration list for PBXProject "Happy Birthday" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAC89A592738AD480052E6E4;
+			productRefGroup = AAC89A632738AD480052E6E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC89A612738AD480052E6E4 /* Happy Birthday */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAC89A602738AD480052E6E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC89A722738AD4A0052E6E4 /* LaunchScreen.storyboard in Resources */,
+				AAC89A822738C5D30052E6E4 /* BentonSans-Regular.ttf in Resources */,
+				AAC89A6F2738AD4A0052E6E4 /* Assets.xcassets in Resources */,
+				AA92E682274010CF008C94C8 /* Colors.xcassets in Resources */,
+				AAC89A802738C4BC0052E6E4 /* BentonSans-Medium.ttf in Resources */,
+				AAC89A6D2738AD480052E6E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAC89A5E2738AD480052E6E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAC89A6A2738AD480052E6E4 /* BabyDetailsViewController.swift in Sources */,
+				AA92E68E27406114008C94C8 /* UIImage+Extension.swift in Sources */,
+				AA92E68A27405E22008C94C8 /* BabyBirthdayFactory.swift in Sources */,
+				AAC89A662738AD480052E6E4 /* AppDelegate.swift in Sources */,
+				AAB7947F273AD25F008094CE /* BabyDetailsViewModel.swift in Sources */,
+				AA1A15EF273B4583002DC2E6 /* BabyBirthdayViewModel.swift in Sources */,
+				AAE3E1032740969200DF5CE6 /* UIView+Snapshot.swift in Sources */,
+				AA1A15ED273B4576002DC2E6 /* BabyBirthdayModel.swift in Sources */,
+				AAB7947A273AB1E9008094CE /* CameraImageService.swift in Sources */,
+				AAF97B1B2739D73D009A8C1B /* UserDefaults+Extension.swift in Sources */,
+				AAB7947C273ACED4008094CE /* BabyDetailsModel.swift in Sources */,
+				AA92E68C274060E7008C94C8 /* UIColor+Extension.swift in Sources */,
+				AA1A15EA273B3E60002DC2E6 /* BabyBirthdayViewController.swift in Sources */,
+				AAC89A682738AD480052E6E4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AAC89A6B2738AD480052E6E4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC89A6C2738AD480052E6E4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AAC89A702738AD4A0052E6E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AAC89A712738AD4A0052E6E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AAC89A742738AD4A0052E6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC89A752738AD4A0052E6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC89A772738AD4A0052E6E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VR4U9X3U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Happy Birthday/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanit.Happy-Birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AAC89A782738AD4A0052E6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9VR4U9X3U2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Happy Birthday/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nanit.Happy-Birthday";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAC89A5D2738AD480052E6E4 /* Build configuration list for PBXProject "Happy Birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC89A742738AD4A0052E6E4 /* Debug */,
+				AAC89A752738AD4A0052E6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC89A762738AD4A0052E6E4 /* Build configuration list for PBXNativeTarget "Happy Birthday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC89A772738AD4A0052E6E4 /* Debug */,
+				AAC89A782738AD4A0052E6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC89A5A2738AD480052E6E4 /* Project object */;
+}
